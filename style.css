@@ -9,6 +9,8 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background: rgb(202,207,210);
+    background: radial-gradient(circle, rgba(202,207,210,1) 16%, rgba(120,148,151,1) 56%, rgba(104,104,104,1) 100%);
 }
 .container {
     display: flex;
@@ -92,9 +94,9 @@ footer {
 }
 a {
     text-decoration: none;
-    color: #61994b;
+    color: #4f6e44;
 }
 a:hover {
-    color: #39592c;
+    color: #6d7d67;
     
 }
