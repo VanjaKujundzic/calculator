@@ -19,10 +19,18 @@
     width: 350px;
 }
 .display {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
     flex: 4;
     background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    font-size: 50px;
+    padding-right: 35px;
+    
 }
 .body {
+    
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
@@ -66,6 +74,6 @@ button:hover {
     width: 140px;
     border-radius: 35px;
 }
-.operators {
+.operators, .equals {
     background-color: rgba(255, 135, 23, 1);
 }
