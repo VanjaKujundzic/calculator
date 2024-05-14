@@ -47,7 +47,17 @@ button {
   height: 65px;
   border-radius: 50%;
   font-size: 25px;
+  background-color: rgba(51, 48, 48, 1);
+  color: aliceblue;
+  border: none;
   
+}
+button:active {
+    transform:translateY(4px)
+}
+button:hover {
+    /* opacity: 0.7; */
+    filter: brightness(80%)
 }
 #zero {
     display: flex;
@@ -55,4 +65,7 @@ button {
     padding: 25px;
     width: 140px;
     border-radius: 35px;
+}
+.operators {
+    background-color: rgba(255, 135, 23, 1);
 }
